@@ -1,0 +1,1273 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ActionGameFramework.Audio.RandomAudioSource
+    - ActionGameFramework.Health.DamageCollider
+    - ActionGameFramework.Health.Damager
+    - BulletBehaviour
+    - Controller
+    - Core.Health.DeathEffect
+    - Core.Health.HealthVisualizer
+    - Core.Health.SimpleAlignment
+    - Core.Utilities.Poolable
+    - Enemy
+    - EnemyBehaviour
+    - LookAtCamera
+    - PlayerHealth
+    - RocketBehaviour
+    - Spawner
+    - TowerBehaviour
+    - TowerDefense.Affectors.AttackAffector
+    - TowerDefense.Agents.AttackingAgent
+    - TowerDefense.Agents.HomeBaseAttacker
+    - TowerDefense.Economy.LootDrop
+    - TowerDefense.Effects.MobileParticleSelector
+    - TowerDefense.Targetting.Targetter
+    - TowerDefense.Towers.Projectiles.ContactDestroyer
+    - TowerDefense.Towers.Projectiles.HitscanAttack
+    - TowerDefense.Towers.SelfDestroyTimer
+    - TowerDefense.Towers.TowerLaunchers.HitscanLauncher
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11146}
+    - Class: 114
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11184}
+    - Class: 114
+      Script: {instanceID: 11262}
+    - Class: 114
+      Script: {instanceID: 11342}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11346}
+    - Class: 114
+      Script: {instanceID: 11380}
+    - Class: 114
+      Script: {instanceID: 11384}
+    - Class: 114
+      Script: {instanceID: 11394}
+    - Class: 114
+      Script: {instanceID: 11472}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11676}
+    - Class: 114
+      Script: {instanceID: 11688}
+    - Class: 114
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11860}
+    - Class: 114
+      Script: {instanceID: 11894}
+    - Class: 114
+      Script: {instanceID: 11934}
+    - Class: 114
+      Script: {instanceID: 12006}
+    - Class: 114
+      Script: {instanceID: 12058}
+    - Class: 114
+      Script: {instanceID: 12338}
+    - Class: 114
+      Script: {instanceID: 12428}
+    - Class: 114
+      Script: {instanceID: 12622}
+    - Class: 114
+      Script: {instanceID: 12830}
+    - Class: 114
+      Script: {instanceID: 12900}
+    - Class: 114
+      Script: {instanceID: 12932}
+    - Class: 114
+      Script: {instanceID: 12952}
+    - Class: 114
+      Script: {instanceID: 13010}
+    - Class: 114
+      Script: {instanceID: 13076}
+    - Class: 114
+      Script: {instanceID: 13168}
+    - Class: 114
+      Script: {instanceID: 13210}
+    - Class: 114
+      Script: {instanceID: 13270}
+    - Class: 114
+      Script: {instanceID: 13332}
+    - Class: 114
+      Script: {instanceID: 13342}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 3c08375166df118bd1801438fc36b92f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 3b9455fc90f3218da9aa3e2ea7b37ab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Projectiles
+    className: ContactDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: b1b30577e44e211f4e73ab9f0062f39a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: PlayerBaseHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 024711c25ac176971c44be5771f99e0d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Effects
+    className: MobileParticleSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71fb04a7d4e0699fa5addd1bea49f758
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Affectors
+    className: CurrencyAffector
+  - hash:
+      serializedVersion: 2
+      Hash: 407fca2800c280f395a4e5847e4e4757
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Health
+    className: DamageableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c0669947cd0814fc525f038d7d30d335
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Data
+    className: TowerLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 7ce164bdbb76096bb2dff3f387a33a93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 31005b9acfb62803e2c0f78708914099
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Agents
+    className: HomeBaseAttacker
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 862630df5e90880c7fd0b82ed8983a9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Agents.Data
+    className: AgentConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 72712369a7c681ad84fc255a5ec0b333
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 4de2807c91448c18844ee61d756fcada
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Audio
+    className: RandomAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 57ad0878f1872a53598a0937768729e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: c8ec8a9e481bca5b3d3feef0f66716ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: IntervalParticleSystemPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: ed56ffa156e53f5259d7e064b01bca01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Utilities
+    className: Poolable
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: fc17a9ea965b110df0cce48191c365ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Agents
+    className: AttackingAgent
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: a14e5afa9e486b3e030d94c22483dbf5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Input
+    className: InputController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Input
+    className: InputSchemeSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: c76f9608b3d895c9e7ed8581429784f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Health
+    className: DeathEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 3fbb1a5ffeb0d2dc3502a3dae62a7533
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing
+    className: PostProcessingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f3c101cd585863ba3c2df9ed67c82ae2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: ScorePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 2fca0511a7696dd2c5af2c1947495d1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Input
+    className: KeyboardMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: d2cf67fbbdaaa07bcf5d143022910908
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: BuildSidebar
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9333594897a1fb8b136ad2eae996c7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Level
+    className: TimedLevelIntro
+  - hash:
+      serializedVersion: 2
+      Hash: f527cc24292f3c3bfc1394dd3d7a17ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Affectors
+    className: AttackAffector
+  - hash:
+      serializedVersion: 2
+      Hash: 20c9a74d659b6895cfdb5f4624ba8daa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Projectiles
+    className: HitscanAttack
+  - hash:
+      serializedVersion: 2
+      Hash: fa93108465515d947afed605e1b6420f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Health
+    className: Damager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Agents
+    className: AgentSlower
+  - hash:
+      serializedVersion: 2
+      Hash: 3662df3fbbe1591c590ec4581b43d133
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Health
+    className: SimpleAlignment
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: c140fbef8ca4e8494c1b1c0c2e9feea3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.MeshCreator
+    className: AreaMeshCreator
+  - hash:
+      serializedVersion: 2
+      Hash: ea515e3d2a616c4ee989de98012daad0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Level
+    className: Wave
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5405b680d332c4fcd0e18ed2ed34938a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers
+    className: SelfDestroyTimer
+  - hash:
+      serializedVersion: 2
+      Hash: fc17a9ea965b110df0cce48191c365ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Agents
+    className: FlyingAgent
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b001c856c1dd882577b86fa87bacec9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.TowerLaunchers
+    className: BallisticLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 26e8419cb8cfb29828350356d03c7f2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawner
+  - hash:
+      serializedVersion: 2
+      Hash: 9c98393098b2023171db7d2c9a818782
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Projectiles
+    className: WobblingHomingProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: a5b7c5e2256dcc4a8e8eb7cb73f40528
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: OptionsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: d41e165cb2adc7693edf6bbb711d930a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Health
+    className: HealthVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 103e52d52aa0dff7b6d616c167ed754e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Spawning
+    className: SingleHitObjectSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 7eadc7ebd14dfcff01570520764f8dd6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Input
+    className: TouchInput
+  - hash:
+      serializedVersion: 2
+      Hash: 7c3565f6021306c53da897382d15ac62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers
+    className: TowerLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 539e452dc11966c5c37e882884e95d5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0152c618b0da2f245ae78cf14c8a77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Health
+    className: Targetable
+  - hash:
+      serializedVersion: 2
+      Hash: e1a5a83e0211670fc2f0588ae284bfff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RocketBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6e0695a7dc9c76b038510612b714868f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Game
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: c296b9578398dad16964ea9fa7634c3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Utilities
+    className: PoolManager
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 57fd06f5e3ac0183bdbdfa9b167e3fbf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Health
+    className: DamageableListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4a291041e2b72713535cb85fb365b1f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: TowerInfoDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 2dd2470d751bb284c0f19b2c5cce4697
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: WaveUI
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 77577a9edc8343d1acaa27589f181bf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: BuildInfoUI
+  - hash:
+      serializedVersion: 2
+      Hash: da2f5df38a78211a574cec585ea6f726
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Level
+    className: WaveManager
+  - hash:
+      serializedVersion: 2
+      Hash: b77c0dd07dca4e058b8168cff1ec182d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Effects
+    className: ProjectileEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 0568889868f6fb744b2ecba530349fde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleWheelController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: ff34606f777a32c2d0e9a9f2f68b6c86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: TowerDefenseMainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: fc0d769a966296d7a96240de07e7b5cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: MouseScroll
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 5bbab411412f92e663e4172e34cd8e8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Health
+    className: DamageTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 7723560c1701aeae478135ca6b291e13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: TowerPlacementGhost
+  - hash:
+      serializedVersion: 2
+      Hash: feb9a5a121d15fa3654d4e50a5233045
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: ExitButton
+  - hash:
+      serializedVersion: 2
+      Hash: 69b108185dde86e5c357281306ae01d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Targetting
+    className: Targetter
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0f2f8933d06858da5974903a29671dbd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers
+    className: Tower
+  - hash:
+      serializedVersion: 2
+      Hash: b001c856c1dd882577b86fa87bacec9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.TowerLaunchers
+    className: HomingLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: f401c238f3114b755682043bc72ca906
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Level
+    className: TimedWave
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ad8a9d99c6cbe7eff0c0105de4731714
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Cameras
+    className: PostProcessorConfigurationSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c37eba3ed4bc0bdba85b13f0087f2866
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Placement
+    className: SingleTowerPlacementArea
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: PlayAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 2e1b223c46328959aea736975c28ef42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Projectiles
+    className: BallisticProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 9323b4d6dfe14ae2682ddd1775c0c1eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TowerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9ef605a7ff2ef0d96ad3391d285ddbc6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Input
+    className: TowerDefenseTouchInput
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa9724de324f0933a8236d953e4d30a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Spawning
+    className: RandomHitObjectSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: d0ce9d12100e37457612af9005082d81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Nodes
+    className: FixedNodeSelector
+  - hash:
+      serializedVersion: 2
+      Hash: d0ce9d12100e37457612af9005082d81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Nodes
+    className: RandomNodeSelector
+  - hash:
+      serializedVersion: 2
+      Hash: ae2a85a047b87c59373b5141a23c6604
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: PlacementTile
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac67890e1e354a3ffb1d52451ffc1b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Data
+    className: TowerLevelData
+  - hash:
+      serializedVersion: 2
+      Hash: 2b604258afafd69bd517aab8da865cb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: MovingCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 1bde5fd20e902643ee6a239cd94cd497
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: LevelSelectScreen
+  - hash:
+      serializedVersion: 2
+      Hash: cffca0cb8f856e1beebc21b0952dcd65
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Audio
+    className: HealthChangeAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 4897f5a226d42459f106a93afe05a2dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: Rotator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: TowerDefenseInputSchemeSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: bddf08f8bb4c92b2e1ce66b0ebb7bae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Level
+    className: PlayerHomeBase
+  - hash:
+      serializedVersion: 2
+      Hash: 31ba671b37bab3ba707d86b32c5fcc4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: RadiusVisualizerController
+  - hash:
+      serializedVersion: 2
+      Hash: 3b760e6526e13f7504f59e210145899a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: b2fc9f2ba3533471fcd2f695ba30a26a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Controller
+  - hash:
+      serializedVersion: 2
+      Hash: b0cf5c63c34a961c7ae5a63316deeb12
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Level
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2fca0511a7696dd2c5af2c1947495d1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Input
+    className: TowerDefenseKeyboardMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bd89c02c54734bc10c39b2afb3d65590
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing
+    className: PostProcessingProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 3ffa6bf0e5a824a26634d5986f73d0bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Nodes
+    className: Node
+  - hash:
+      serializedVersion: 2
+      Hash: ed56ffa156e53f5259d7e064b01bca01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Effects
+    className: PoolableEffect
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 12c6c1852360ef443979edfea8c68ab7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Affectors
+    className: SlowAffector
+  - hash:
+      serializedVersion: 2
+      Hash: dd10d91afd19b47f4fb8bde4290c4ea2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Placement
+    className: TowerPlacementGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 76652b5dd35339a6d305a2f55585e441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Projectiles
+    className: LinearProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 5bbab411412f92e663e4172e34cd8e8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Health
+    className: DamageCollider
+  - hash:
+      serializedVersion: 2
+      Hash: ef8f6f97b7009d2fc65463f3c7dd7bc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: EndGameScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookAtCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5efd5df73e80275d5021dcd5a8e6ba27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: TowerSpawnButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3acdb83d2b145dd87d35eda3adfb419
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.Projectiles
+    className: SplashDamager
+  - hash:
+      serializedVersion: 2
+      Hash: b001c856c1dd882577b86fa87bacec9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.TowerLaunchers
+    className: HitscanLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: a70683485ccf2244759e1aec24ac8d8f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: TowerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 532070e4264579b99d039cfafe4768cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: CurrencyUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9568a87c8f14d5854c5c91171a0ee7ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Towers.TowerLaunchers
+    className: SuperTowerLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6417d3da74c0fa55c9d6f9ba3c8cdfd1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.Economy
+    className: LootDrop
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 1e4466e609fc8144fc9dc85c97f45131
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: ActionGameFramework.Projectiles
+    className: HomingLinearProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 7db8517b0a10ea56e360ee95358a2e75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: df434544c9f7b33d1cc7e635b180d279
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 657a8983cd3417463d9deeab7397bc23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Camera
+    className: CameraRig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 849f8f61740e03fd6c2f92ca4f166b1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Camera
+    className: CameraInitialState
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: b4d278bcca1055fd3c9791d00a07fcfd
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 1b7d124e82be9abfc2df37d762a5cc2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: LevelSelectButton
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 4b350f1b4b27f9e3867d53459091a3b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemy
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1c7a957512c778341264f481837bc430
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI.HUD
+    className: GameUI
+  - hash:
+      serializedVersion: 2
+      Hash: e9539b36af987b1fc4d5169f5d2f3d29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.UI
+    className: BasicAnimatingMainMenuPage
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefense.UI
+    className: UrlOpen
+  - hash:
+      serializedVersion: 2
+      Hash: 9bd5a10a8d18e20da25544cf4f02cc48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.Game
+    className: LevelList
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e9539b36af987b1fc4d5169f5d2f3d29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Core.UI
+    className: SimpleMainMenuPage
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/deniz/Desktop/LoLTD.exe

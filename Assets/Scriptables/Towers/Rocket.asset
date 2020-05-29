@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31efa1c2407568549a3a89b31dbbfb89, type: 3}
+  m_Name: Rocket
+  m_EditorClassIdentifier: 
+  towerName: Rocket
+  description: A powerfull Area-Damaging tower
+  buildingPrice: 35
+  level2Price: 25
+  level3Price: 40
+  level1Graphic: {fileID: 4536913071135926944, guid: e7bcdc9919c79894887643c221f87ab7,
+    type: 3}
+  level2Graphic: {fileID: 4536913071135926944, guid: 1b3df4f0724fdd9408e4cb78dc729dbd,
+    type: 3}
+  level3Graphic: {fileID: 4536913071135926944, guid: 5bae7360b468c8b45bca703b5910c06b,
+    type: 3}

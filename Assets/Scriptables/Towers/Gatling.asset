@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31efa1c2407568549a3a89b31dbbfb89, type: 3}
+  m_Name: Gatling
+  m_EditorClassIdentifier: 
+  towerName: GatlingTower
+  description: A fast shooting death machine
+  buildingPrice: 25
+  level2Price: 20
+  level3Price: 45
+  level1Graphic: {fileID: 984915598199748880, guid: d0f45be14e9f8024493c62211ba10620,
+    type: 3}
+  level2Graphic: {fileID: 984915598199748880, guid: b262175c3e1ceae41ad2d4101ff02409,
+    type: 3}
+  level3Graphic: {fileID: 984915598199748880, guid: a840f700eb5dd8d42b92405e546db0fc,
+    type: 3}
